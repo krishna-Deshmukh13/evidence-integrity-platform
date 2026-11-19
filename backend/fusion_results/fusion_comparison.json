@@ -1,0 +1,48 @@
+{
+  "model_type": "Logistic Regression Fusion",
+  "trained_on": "Demo Benchmark",
+  "is_demonstration": true,
+  "features": [
+    "ai_image",
+    "copy_move",
+    "ela",
+    "exif",
+    "exif_stripped",
+    "exif_thumbnail",
+    "face_deepfake",
+    "font_forensics",
+    "hidden_text",
+    "incremental_updates",
+    "modified_after_capture",
+    "noise",
+    "pdf_dates",
+    "pdf_metadata",
+    "pdf_producer",
+    "software"
+  ],
+  "intercept": 0.06173945590853691,
+  "coefficients": {
+    "ai_image": 0.0728013813495636,
+    "copy_move": 0.0728013813495636,
+    "ela": 0.0728013813495636,
+    "exif": -0.49953770637512207,
+    "exif_stripped": 0.30840522050857544,
+    "exif_thumbnail": 0.0728013813495636,
+    "face_deepfake": 0.0728013813495636,
+    "font_forensics": -0.04158277064561844,
+    "hidden_text": -0.04158277064561844,
+    "incremental_updates": -0.04158277064561844,
+    "modified_after_capture": 0.26393386721611023,
+    "noise": 0.0728013813495636,
+    "pdf_dates": 0.34731706976890564,
+    "pdf_metadata": -0.38889986276626587,
+    "pdf_producer": 0.34731706976890564,
+    "software": 0.26393386721611023
+  },
+  "performance": {
+    "hand_tuned_auc": 0.875,
+    "logistic_regression_auc": 0.25,
+    "gradient_boosting_auc": 0.5
+  },
+  "disclaimer": "This ML model is trained on benchmark evaluation data and provides an optional statistical confidence indicator. It is only as good as its training data and never replaces deterministic forensic scoring."
+}

@@ -1,0 +1,3 @@
+# AI models (installed by setup.bat / setup.sh after requirements.txt).
+# On Windows/macOS 'pip install torch' is already the CPU build. On Linux the setup script uses the CPU wheel index.
+transformers>=4.40

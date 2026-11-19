@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#111827"/>
+  <!-- Letter E -->
+  <path d="M64 64h75v22H86v31h38v22H86v30h75v22H64V64z" fill="#FFFFFF"/>
+  <!-- Letter i stem -->
+  <rect x="164" y="108" width="22" height="83" rx="2" fill="#FFFFFF"/>
+  <!-- Letter i dot -->
+  <circle cx="174.5" cy="77.5" r="14" fill="#F59E0B"/>
+</svg>

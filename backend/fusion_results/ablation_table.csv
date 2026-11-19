@@ -1,0 +1,17 @@
+removed_check,ablated_auc,delta_auc,importance
+ai_image,0.1667,0.0833,High
+copy_move,0.1667,0.0833,High
+ela,0.1667,0.0833,High
+exif_thumbnail,0.1667,0.0833,High
+face_deepfake,0.1667,0.0833,High
+noise,0.1667,0.0833,High
+exif,0.25,0.0,Neutral
+font_forensics,0.25,0.0,Neutral
+hidden_text,0.25,0.0,Neutral
+incremental_updates,0.25,0.0,Neutral
+modified_after_capture,0.25,0.0,Neutral
+pdf_dates,0.25,0.0,Neutral
+pdf_producer,0.25,0.0,Neutral
+software,0.25,0.0,Neutral
+exif_stripped,0.3333,-0.0833,Neutral
+pdf_metadata,0.3333,-0.0833,Neutral

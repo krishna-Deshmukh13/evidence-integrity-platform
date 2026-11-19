@@ -1,0 +1,115 @@
+# ==============================================================================
+# Evidence Integrity Platform - .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment & Secrets (NEVER COMMIT)
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+
+# ------------------------------------------------------------------------------
+# 2. Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------------------------
+# 3. Node & Frontend
+# ------------------------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vite/
+
+# ------------------------------------------------------------------------------
+# 4. Storage & Runtime Databases (Local Evidence Data)
+# ------------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/artifacts/*
+!backend/storage/artifacts/.gitkeep
+backend/storage/*.db
+backend/storage/.jwt_secret
+backend/storage/real_temp/
+backend/eval_demo_out/
+backend/robustness_demo_out/
+evidence.db
+
+# ------------------------------------------------------------------------------
+# 5. Heavy Media Blobs & Scratch Archives
+# ------------------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.7z
+real_incident_evidence_files/
+sample_evidence_files/
+report_pages/
+scripts_archive/
+
+# One-off scratch & patch scripts
+capture_*.cjs
+scratch_*.py
+temp_*
+compile_complete_report.py
+generate_markdown_report.py
+remove_*.py
+update_*.py
+create_zip_for_friend.bat
+backend/scripts/patch_*.py
+backend/scripts/wire_*.py
+backend/scripts/add_photo_*.py
+backend/scripts/copy_*.py
+backend/scripts/fix_*.py
+backend/scripts/apply_*.py
+
+# ------------------------------------------------------------------------------
+# 6. Operating System & IDE
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
