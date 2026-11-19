@@ -118,6 +118,8 @@ docker compose up --build
 ```
 Open **`http://localhost:8000`** in your browser.
 
+> **Tip for Linux / macOS / WSL users:** You can also run `make docker` or `make test` using the included `Makefile`.
+
 ---
 
 ### Option 2: Local Development Setup

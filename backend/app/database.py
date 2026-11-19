@@ -45,3 +45,65 @@ def init_db():
         n_admin = conn.execute(text("SELECT COUNT(*) FROM users WHERE role='admin'")).scalar()
         if n_admin == 0:
             conn.execute(text("UPDATE users SET role='admin' WHERE id=(SELECT MIN(id) FROM users)"))
+
+    # Auto-bootstrap default users and demo dataset if database is newly initialized
+    db = SessionLocal()
+    try:
+        from . import auth, models
+        if db.query(models.User).count() == 0:
+            default_users = [
+                models.User(
+                    username="krishna",
+                    full_name="Krishna Deshmukh",
+                    role="admin",
+                    password_hash=auth.hash_password("Krishna@0305"),
+                    totp_enabled=False,
+                    is_active=True
+                ),
+                models.User(
+                    username="nida",
+                    full_name="Nida Latif",
+                    role="admin",
+                    password_hash=auth.hash_password("Nida@2026"),
+                    totp_enabled=False,
+                    is_active=True
+                ),
+                models.User(
+                    username="meera",
+                    full_name="Insp. Meera Kulkarni",
+                    role="investigator",
+                    password_hash=auth.hash_password("ram@1234"),
+                    totp_enabled=False,
+                    is_active=True
+                ),
+                models.User(
+                    username="rohan",
+                    full_name="SI Rohan Patil",
+                    role="investigator",
+                    password_hash=auth.hash_password("ram@1234"),
+                    totp_enabled=False,
+                    is_active=True
+                ),
+                models.User(
+                    username="kavya",
+                    full_name="Kavya Rao",
+                    role="viewer",
+                    password_hash=auth.hash_password("ram@1234"),
+                    totp_enabled=False,
+                    is_active=True
+                ),
+            ]
+            db.add_all(default_users)
+            db.commit()
+
+        # Seed realistic demo cases if case database is empty
+        if db.query(models.Case).count() == 0:
+            try:
+                from scripts.seed_demo import run_seed
+                run_seed(db)
+            except Exception:
+                pass
+    except Exception:
+        db.rollback()
+    finally:
+        db.close()

@@ -1,3 +1,4 @@
-# AI models (installed by setup.bat / setup.sh after requirements.txt).
-# On Windows/macOS 'pip install torch' is already the CPU build. On Linux the setup script uses the CPU wheel index.
+# Optional deep learning models for offline neural inference.
+# Install if running local HuggingFace transformer checks:
+# pip install -r requirements-stage3.txt
 transformers>=4.40

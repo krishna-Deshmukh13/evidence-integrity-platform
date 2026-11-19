@@ -114,3 +114,5 @@ desktop.ini
 *.swp
 *.swo
 .github/
+*.bat
+*.cmd
