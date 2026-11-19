@@ -40,6 +40,73 @@ flowchart TD
 
 ---
 
+## 📸 Platform Showcase & Interface Walkthrough
+
+Explore the core user interfaces, forensic analytics tools, and compliance reporting engines in action:
+
+### 1. Executive Forensic Dashboard
+> Central command interface displaying real-time case triage, forensic queue health, integrity metrics, and pending legal statutory deadlines.
+
+![Executive Forensic Dashboard](docs/screenshots/01_dashboard.png)
+
+---
+
+### 2. Cases & Investigation Directory
+> Case intake registry tracking FIR numbers, investigating officers, incident locations (e.g. Bandra, Connaught Place, Bengaluru), and cryptographic custody status.
+
+![Cases & Investigation Directory](docs/screenshots/02_cases_overview.png)
+
+---
+
+### 3. Case Dossier & Custodial Chain of Custody
+> Comprehensive evidence repository with SHA-256 fingerprint verification, clamped trust scores (1–99%), and instant Section 63 BSA compliance status.
+
+![Case Dossier & Evidence Management](docs/screenshots/03_case_detail.png)
+
+---
+
+### 4. Video Forensics Studio (Temporal Splice & Tamper Detection)
+> Frame-by-frame verification suite featuring duplicate-frame detection, freeze analysis, PTS timestamp verification, and chronological timeline cuts.
+
+![Video Forensics Studio](docs/screenshots/04_video_forensics.png)
+
+---
+
+### 5. Image Forensics Studio (ELA & Copy-Move Detection)
+> Deep image analysis engine featuring Error Level Analysis (ELA) re-compression difference heatmaps, noise variance analysis, and EXIF quantization table validation.
+
+![Image Forensics Studio](docs/screenshots/05_image_forensics.png)
+
+---
+
+### 6. Audio Forensics Studio (Voice Cloning & Spectrogram Inspection)
+> Frequency-domain audio analysis with high-resolution spectrograms (0–22 kHz), ENF (Electrical Network Frequency) 50 Hz power-grid hum validation, and synthetic voice clone detection.
+
+![Audio Forensics Studio](docs/screenshots/06_audio_forensics.png)
+
+---
+
+### 7. Document Forensics & Section 63 BSA Certificate
+> PDF & document structure inspector detecting incremental trailer revisions, font embedding anomalies, hidden layers, and automated Section 63 BSA (formerly 65B IEA) court certificate issuance.
+
+![Document Forensics & Legal Compliance](docs/screenshots/07_document_forensics.png)
+
+---
+
+### 8. Tactical Geospatial Incident Map
+> Interactive GIS intelligence map linking geo-tagged digital evidence, incident crime scenes, and suspect mobile tower locations across operational zones.
+
+![Tactical Geospatial Incident Map](docs/screenshots/08_tactical_map.png)
+
+---
+
+### 9. File Safety & Cryptographic Hash Chain Monitor
+> Cryptographic integrity monitor validating SHA-256 intake hashes against real-time storage states, ensuring zero silent bit rot or unauthorized file tampering.
+
+![Cryptographic File Safety & Integrity Monitor](docs/screenshots/09_integrity_monitor.png)
+
+---
+
 ## ⚡ Quick Start
 
 ### Option 1: Docker (Single-Command Run)
