@@ -3,7 +3,7 @@
 
 ---
 
-**Project Developer:** Krishna Deshmukh  
+**Project Developers & Lead Engineers:** Krishna Deshmukh & Nida Latif  
 **Document Type:** Final Capstone / Degree Engineering Project Report  
 **Target Format:** Academic Project Report (28-Page Structured Specification)  
 **Academic Year:** 2025 – 2026  
@@ -16,7 +16,7 @@
 ## EXECUTIVE SUMMARY & METADATA
 
 - **Project Title:** Evidence Integrity Platform: Automated Digital Forensics, Multi-Spectral Tamper Analysis, and Section 63 BSA 2023 Cryptographic Custody
-- **Developer & Lead Engineer:** Krishna Deshmukh
+- **Developers & Lead Engineers:** Krishna Deshmukh & Nida Latif
 - **Backend Architecture:** Python 3.12, FastAPI (Asynchronous ASGI), SQLite 3 (WAL Mode / Foreign Key Enforced), SQLAlchemy ORM, Pydantic v2 validation
 - **Frontend Architecture:** React 19, TypeScript 5.8, Tailwind CSS v4, Lucide Icons, Canvas 2D / WebGL Forensics Viewers, Vite Bundler
 - **Forensic Processing Engines:** OpenCV (cv2), Pillow (PIL), NumPy, SciPy (FFT / Signal Processing), ImageHash (Perceptual pHash / dHash)
@@ -59,7 +59,7 @@
 
 Modern legal jurisdictions and corporate investigatory bodies face an unprecedented crisis of trust driven by generative artificial intelligence, high-fidelity deepfake creation tools, and accessible image-manipulation software. In criminal proceedings, commercial litigation, and regulatory compliance, digital evidence—including CCTV footage, suspect photographs, smartphone audio recordings, and forensic documents—is routinely challenged for authenticity. Traditional manual forensic workflows rely on expensive, fragmented desktop software suites that lack real-time collaborative capabilities, tamper-evident custody logging, and verifiable public proof of custody.
 
-The **Evidence Integrity Platform**, designed and implemented by **Krishna Deshmukh**, is an end-to-end, enterprise-grade digital forensics management system engineered to solve these challenges. The platform couples automated multi-spectral digital forensics with cryptographic chain-of-custody tracking aligned with statutory legal mandates, specifically **Section 63 of the Bharatiya Sakshya Adhiniyam, 2023 (BSA)**.
+The **Evidence Integrity Platform**, designed and implemented by **Krishna Deshmukh** and **Nida Latif**, is an end-to-end, enterprise-grade digital forensics management system engineered to solve these challenges. The platform couples automated multi-spectral digital forensics with cryptographic chain-of-custody tracking aligned with statutory legal mandates, specifically **Section 63 of the Bharatiya Sakshya Adhiniyam, 2023 (BSA)**.
 
 Upon file ingestion, the platform automatically computes authoritative cryptographic digests (SHA-256 and MD5) alongside multi-scale perceptual hashes (pHash, aHash, dHash). The media payload is then directed through a concurrent forensic analysis pipeline that performs:
 1. **Error Level Analysis (ELA)** to isolate compression rate disparities across image surfaces.
@@ -87,7 +87,7 @@ In India, the transition from the Indian Evidence Act, 1872 to the **Bharatiya S
 Failure to satisfy these statutory conditions results in the summary dismissal and inadmissibility of critical evidence, allowing guilty parties to evade justice or innocent individuals to be wrongly accused.
 
 ### 2.3 Role of the Evidence Integrity Platform
-The platform created by Krishna Deshmukh addresses both the scientific challenge of detecting subtle manipulations and the legal challenge of proving unbroken custody. By integrating automated forensic algorithms, a responsive web dashboard, relational tracking, and cryptographic certificate generation into a unified workflow, the system bridges the gap between law enforcement field operations, specialized forensic laboratories, and legal courtrooms.
+The platform created by Krishna Deshmukh and Nida Latif addresses both the scientific challenge of detecting subtle manipulations and the legal challenge of proving unbroken custody. By integrating automated forensic algorithms, a responsive web dashboard, relational tracking, and cryptographic certificate generation into a unified workflow, the system bridges the gap between law enforcement field operations, specialized forensic laboratories, and legal courtrooms.
 
 ---
 
@@ -588,7 +588,7 @@ The platform was subjected to rigorous unit, integration, and end-to-end verific
 
 # CHAPTER 24: CONCLUSION & PROJECT SUMMARY
 
-The **Evidence Integrity Platform**, conceived, designed, and developed by **Krishna Deshmukh**, represents a substantial engineering advancement in the field of automated digital forensics and electronic record integrity verification.
+The **Evidence Integrity Platform**, conceived, designed, and developed collaboratively by **Krishna Deshmukh** and **Nida Latif**, represents a substantial engineering advancement in the field of automated digital forensics and electronic record integrity verification.
 
 By combining cutting-edge computer vision algorithms (Error Level Analysis, ORB keypoint clone matching, PRNU noise variance, and perceptual hashing) with an immutable, event-driven custody ledger, the platform provides a rigorous scientific defense against the rising tide of digital media forgery and AI-generated misinformation.
 
@@ -627,4 +627,4 @@ The platform stands as a complete, fully tested, and battle-ready software solut
 
 ---
 *End of Complete Project Report — Evidence Integrity Platform*  
-*Developed by Krishna Deshmukh*
+*Developed by Krishna Deshmukh & Nida Latif*

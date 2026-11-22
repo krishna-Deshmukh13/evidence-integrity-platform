@@ -2,6 +2,29 @@
 
 > **Digital evidence, verified.** An end-to-end digital forensics, cryptographic chain-of-custody, and decision-support platform engineered for Indian law enforcement, cyber cells, and forensic examiners under **Section 63 of the Bharatiya Sakshya Adhiniyam (BSA), 2023** *(formerly Section 65B of the Indian Evidence Act)*.
 
+<p align="center">
+  <a href="https://github.com/krishna-Deshmukh13"><img src="https://img.shields.io/badge/Co--Creator-Krishna%20Deshmukh-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="Krishna Deshmukh" /></a>
+  &nbsp;
+  <a href="https://github.com/nidalatif911"><img src="https://img.shields.io/badge/Co--Creator-Nida%20Latif-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="Nida Latif" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Section%2063%20BSA-2023%20Compliant-059669?style=for-the-badge" alt="BSA 2023 Compliant" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3.11%20%7C%203.12-3b82f6?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
+</p>
+
+---
+
+## 👥 Authors & Engineering Team
+
+The **Evidence Integrity Platform** is engineered and maintained collaboratively by:
+
+| Engineer | Role & Technical Ownership | GitHub Profile |
+| :--- | :--- | :--- |
+| **Krishna Deshmukh** | • System Architecture & ASGI Backend (FastAPI, SQLAlchemy, WAL SQLite)<br>• Merkle Tree Proof Engine & Cryptographic Chain-of-Custody Ledger<br>• Section 63 BSA 2023 Court Certificate PDF Engine & Legal Compliance<br>• Server-Side RBAC, Session Security & Automated Pytest Test Suite | [@krishna-Deshmukh13](https://github.com/krishna-Deshmukh13) |
+| **Nida Latif** | • Multi-Spectral Forensic Signal Processing (ELA, Noise Analysis, Copy-Move)<br>• Audio Frequency Spectrogram Analyzer & 50 Hz ENF Power-Grid Validation<br>• Video Temporal Frame Splice & Duplicate Frame Verification Pipeline<br>• Interactive Forensic Canvas / WebGL Telemetry & Clean User Experience | [@nidalatif911](https://github.com/nidalatif911) |
+
 ---
 
 ## 🏛️ System Overview
